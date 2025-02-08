@@ -1,0 +1,82 @@
+{
+  "labels": [
+    {
+      "name": "On-site Conditions",
+      "description": "Information about physical conditions at the construction site"
+    },
+    {
+      "name": "Project Management Software",
+      "description": "Requirements and specifications for project management software"
+    },
+    {
+      "name": "Owner Responsibilities",
+      "description": "Duties and obligations of the project owner"
+    },
+    {
+      "name": "Contractor Responsibilities",
+      "description": "Duties and obligations of the contractor"
+    },
+    {
+      "name": "Permits",
+      "description": "Required permits and related documentation"
+    },
+    {
+      "name": "Utilities",
+      "description": "Information about utility requirements and connections"
+    },
+    {
+      "name": "Inspections",
+      "description": "Requirements for various inspections during construction"
+    },
+    {
+      "name": "Contract Method",
+      "description": "Information about the contracting method used"
+    },
+    {
+      "name": "Payment Holdbacks",
+      "description": "Requirements for payment retention and holdbacks"
+    },
+    {
+      "name": "BIM",
+      "description": "Provide the BIM file"
+    },
+    {
+      "name": "Warranty",
+      "description": "Warranty terms and conditions"
+    },
+    {
+      "name": "Acceptable Manufacturers",
+      "description": "List of approved manufacturers and suppliers"
+    }
+  ],
+  "labeled_data": [
+    {
+      "text": "Provide boiler Zith safety relief valve in compliance Zith ASME Code, operating\ntemperature control to control the seTuential operation of the burner, Zater pressuretemperature gauge, inlet Zater temperature sensor, outlet Zater temperature sensor, and\ne[haust temperature sensor",
+      "label": "BIM",
+      "confidence": 1.0,
+      "source_pdf": "JHU APL Spec.pdf",
+      "page_number": 1
+    },
+    {
+      "text": "This is a LEED project.",
+      "label": "LEED",
+      "confidence": 1.0,
+      "source_pdf": "JHU APL Spec.pdf",
+      "page_number": 1
+    },
+    {
+      "text": "BIM File Incorporation: Construction Manager will incorporate Contractor's coordination\ndrawing files into BIM established for Project.",
+      "label": "BIM",
+      "confidence": 1.0,
+      "source_pdf": "(groups) GC Spec - Holy Cross Regional Secondary (01).pdf",
+      "page_number": 1
+    },
+    {
+      "text": "Web-Based Project Management Software: Prepare submittals in PDF form, and upload\nto web-based Project software website. Enter required data in web-based software site to\nfully identify submittal.",
+      "label": "Project Management Software",
+      "confidence": 1.0,
+      "source_pdf": "(groups) GC Spec - Holy Cross Regional Secondary (01).pdf",
+      "page_number": 1
+    }
+  ]
+}
