@@ -1,0 +1,22 @@
+services:
+  # Backend API service
+  - type: web
+    name: pdf-analyzer-api
+    env: python
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: cd backend && gunicorn wsgi:app --bind 0.0.0.0:$PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.0
+      - key: OPENAI_API_KEY
+        sync: false
+    
+  # Frontend service  
+  - type: web
+    name: pdf-analyzer-frontend
+    env: static
+    buildCommand: cd frontend && npm install && npm run build
+    staticPublishPath: ./frontend/dist
+    envVars:
+      - key: VITE_API_URL
+        value: https://pdf-analyzer-api.onrender.com
