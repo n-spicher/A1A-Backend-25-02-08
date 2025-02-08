@@ -1,5 +1,9 @@
 flask==3.1.0
 flask-cors==5.0.0
+flask-sqlalchemy==3.1.1
+SQLAlchemy==2.0.25
 openai==0.28.0
 python-dotenv==1.0.1
 PyPDF2==3.0.1
+Werkzeug==3.0.1
+gunicorn==21.2.0
